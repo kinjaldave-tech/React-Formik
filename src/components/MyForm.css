@@ -1,0 +1,48 @@
+.my-form {
+    background-color: #f7f7f7;
+    padding: 50px 0;
+}
+
+.form-control {
+    border-radius: 0;
+    border: none;
+    border-bottom: 2px solid #c5c5c5;
+    background-color: transparent;
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border-color: #ffb400;
+}
+
+.invalid-feedback {
+    color: #dc3545;
+    font-size: 0.8rem;
+    margin-top: 0.25rem;
+}
+
+.btn-primary {
+    background-color: #ffb400;
+    border-color: #ffb400;
+    border-radius: 0;
+    padding: 0.75rem;
+}
+
+.btn-primary:hover {
+    background-color: #ffc60d;
+    border-color: #ffc60d;
+}
+
+.btn-primary:focus {
+    box-shadow: none;
+    border-color: #ffb400;
+}
+
+.my-form-heading {
+    background-color: #ffa500;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 30px;
+    text-shadow: 2px 2px 5px #000;
+}
